@@ -241,7 +241,6 @@ media query
     padding: 0;
   }
   .player {
-    width: 100%;
     padding: 10px 20px;
   }
   p.player-description {
@@ -310,10 +309,6 @@ media query
     width: 100%;
   }
 
-  .players {
-    grid-column-gap: 10px;
-  }
-
   .football-header {
     padding: 0px;
     width: 100%;
@@ -328,9 +323,33 @@ media query
     height: 200px;
     margin-right: 70px;
   }
+
+  main {
+    flex-wrap: nowrap;
+  }
+
   .container {
     width: 100%;
   }
+  .players {
+    grid-column-gap: 10px;
+  }
+
+  .player-image img {
+    width: 250px;
+    height: 200px;
+  }
+  .player {
+    width: 300px;
+    height: 426px;
+  }
+  h2.player-title {
+    font-size: 20px;
+  }
+  p.player-description {
+    line-height: 20px;
+  }
+
   .feature-wrap {
     width: 100%;
   }
